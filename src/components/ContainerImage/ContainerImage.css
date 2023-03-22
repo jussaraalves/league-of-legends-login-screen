@@ -1,0 +1,12 @@
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.wallpaper{
+    width: 80vw;
+    height: 100vh;
+    
+}

@@ -1,0 +1,15 @@
+.manter-login{
+    display: flex;
+    align-items: center;
+    margin: 24px 0;
+    gap: 5px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #000000;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.input-checked{
+   background-color: none;
+}
+

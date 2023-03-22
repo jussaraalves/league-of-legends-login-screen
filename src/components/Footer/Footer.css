@@ -1,0 +1,15 @@
+.footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #B4B4B4;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 11px;
+    
+}
+
+.informacoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
