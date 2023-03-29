@@ -1,15 +1,22 @@
 .footer{
     display: flex;
+    flex-direction: column;
     text-align: center;
     justify-content: center;
+
     color: #B4B4B4;
     font-family: 'Lexend Deca', sans-serif;
     font-size: 11px;
-    
+    text-transform: uppercase;  
 }
 
 .informacoes{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.versao{
+    padding-left: 70%;
 }

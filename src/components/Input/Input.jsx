@@ -1,10 +1,26 @@
 import React from "react";
-import './Input.css'
+import { useState } from "react";
+import './Input.css';
 
-const Input = (props) =>{
+const Input = ({label, type}) =>{ 
+    const [isActive, setIsActive] = useState(false); 
+    const [value, setValue] = useState('');
+
+    function handleTextChange(text) {
+        setValue(text);
+      
+        if (text !== '') {
+          setIsActive(true);
+        } else {
+          setIsActive(false);
+        }
+    }
+
     return(
         <div className="campo-input">
-            <input type="email" name="email" id="email" placeholder={props.placeholder.toUpperCase()}/>
+            <input type={type} name="user" id="user" className="input" value={value}
+            onChange={(e) => handleTextChange(e.target.value)}/>
+            <label className={ isActive ? "Active user-label" : "user-label"}>{label}</label>
         </div>
     )
 }

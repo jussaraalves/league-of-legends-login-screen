@@ -11,5 +11,10 @@
 
 .input-checked{
    background-color: none;
+   background-color: red;
+}
+
+input[type="checkbox"]:checked {
+    accent-color: #D13133;
 }
 

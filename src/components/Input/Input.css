@@ -1,15 +1,42 @@
-.campo-input input{
-    border: 0; 
-    background-color: #EDEDED;  
-    width: 288px;
-    height: 50px;
-    margin-top: 10px;
-    border-radius: 4px;
+.campo-input{
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
 
-::placeholder{
+.input{ 
+    width: 100%;
+    height: 56px;
+    padding: 14px 16px 0 10px;
+    outline: 0;
+    border: none;
+    margin-top: 10px;
+    border-radius: 4px;
+    background: #fff;
     font-family: 'Lexend Deca', sans-serif;
     font-size: 11px;
-    font-weight: bold;
-    padding: 16px;
 }
+
+.user-label{
+    font-size: 12px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 600;
+    padding: 0 12px;
+    color: #999;
+    pointer-events: none;
+
+    position: absolute;
+    transform: translate(0, 26px) scale(1);
+
+    transform-origin: top left;
+    transition: all 0.2s ease-out;
+}
+   
+.campo-input:focus-within label {
+    transform: translate(0, 12px) scale(0.75);
+}
+
+.campo-input .Active {
+    transform: translate(0, 12px) scale(0.75);
+}
+

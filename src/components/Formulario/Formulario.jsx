@@ -18,8 +18,8 @@ const Formulario = () =>{
             <form>
                 <h2 className='title-login'>Fazer Login</h2>
 
-                <Input placeholder="Nome de usuário"/>
-                <Input placeholder="Senha"/>
+                <Input label="Nome de usuário" type="text" />
+                <Input label="Senha" type="password" />
 
                 <Botao background="#0178F6">
                     <BsFacebook size={15} color={'#fff'}/>
@@ -39,7 +39,7 @@ const Formulario = () =>{
                     <AiOutlineArrowRight size={20} color={'#ECECEC'}/>
                 </BotaoCentral>
 
-                <Footer mensage="Não consegue iniciar sessão?" mensage2="Criar conta" mensage3=""/>
+                <Footer mensage="Não consegue iniciar sessão?" mensage2="Criar conta" mensage3="V63.0.9"/>
             </form>
         </section>
     )
