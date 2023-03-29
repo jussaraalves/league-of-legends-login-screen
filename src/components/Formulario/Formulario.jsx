@@ -6,7 +6,7 @@ import Botao from '../Botao/Botao';
 import Input from '../Input/Input';
 import Footer from '../Footer/Footer'
 import './Formulario.css'
-import logo from '/images/logo.png'
+import logo from '/images/logo-riot.png'
 import ManterLogin from '../ManterLogin/ManterLogin';
 import BotaoCentral from '../BotaoCentral/BotaoCentral';
 
