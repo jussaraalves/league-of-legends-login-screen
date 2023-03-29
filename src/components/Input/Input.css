@@ -12,9 +12,9 @@
     border: none;
     margin-top: 10px;
     border-radius: 4px;
-    background: #fff;
+    background: #EDEDED;
     font-family: 'Lexend Deca', sans-serif;
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .user-label{
@@ -22,7 +22,7 @@
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 600;
     padding: 0 12px;
-    color: #999;
+    color: #929292;
     pointer-events: none;
 
     position: absolute;
@@ -31,7 +31,11 @@
     transform-origin: top left;
     transition: all 0.2s ease-out;
 }
-   
+ 
+input:focus{
+    background-color: whitesmoke;
+    border: 2px solid black;
+}
 .campo-input:focus-within label {
     transform: translate(0, 12px) scale(0.75);
 }
