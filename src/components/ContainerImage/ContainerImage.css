@@ -10,3 +10,11 @@ section{
     height: 100vh;
     
 }
+
+.vector{
+    position: absolute;
+    top: 20px;
+    left: 22%;
+    width:46px;
+    height: 46px;
+}

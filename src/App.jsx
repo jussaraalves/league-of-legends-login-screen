@@ -5,8 +5,8 @@ import SectionLogin from './components/SectionLogin/SectionLogin';
 function App() {
   return (
     <div className='app'>
-      <SectionLogin/>
-      <ContainerImage/>
+        <SectionLogin/>
+        <ContainerImage/>
     </div>  
   )
 }

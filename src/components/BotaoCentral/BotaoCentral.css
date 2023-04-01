@@ -14,3 +14,12 @@
     background-color: #F9F9F9;
     cursor: pointer;
 }
+ 
+
+.btn__desative{
+    background-color: #F9F9F9;
+  }
+  
+.btn__ative {
+    background-color: #D13133;
+}

@@ -1,6 +1,6 @@
 .manter-login{
     display: flex;
-    align-items: center;
+    align-items: flex-end;  
     margin: 24px 0;
     gap: 5px;
     font-family: 'Lexend Deca', sans-serif;

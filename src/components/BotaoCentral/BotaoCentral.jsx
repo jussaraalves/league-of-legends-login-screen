@@ -1,8 +1,9 @@
-import './BotaoCentral.css'
-const BotaoCentral = ({children}) =>{
+import './BotaoCentral.css';
+const BotaoCentral = ({children, className}) =>{
+    
     return(
-        <button className="borda-botao">
-            {children}
+        <button className={`borda-botao ${className}`}>
+            {children}  
         </button>
     )
 }
