@@ -1,4 +1,5 @@
-section{
+
+section{ 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,4 +18,9 @@ section{
     left: 22%;
     width:46px;
     height: 46px;
+}
+
+.button-image{
+    border: none;
+    cursor: pointer;
 }
