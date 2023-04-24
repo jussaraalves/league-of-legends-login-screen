@@ -14,7 +14,7 @@ section{
 
 .vector{
     position: absolute;
-    top: 20px;
+    top: 40px;
     left: 22%;
     width:46px;
     height: 46px;
@@ -23,4 +23,66 @@ section{
 .button-image{
     border: none;
     cursor: pointer;
+}
+
+.tooltip .tooltiptext{ 
+    font-family: Lexend Deca, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    top: 5px;
+    left: 24.5%;
+    background-color: #F9F9F9;
+    padding: 37px;  
+    width: 380px;
+    height: 250px;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    visibility: hidden;      
+} 
+
+.tooltip:hover .tooltiptext{
+    visibility: visible;
+}
+
+.tooltip .tooltiptext::after{
+    content: '';
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    margin-left: -215px;
+    
+    border-width: 13px;
+    border-style: solid;
+    border-color: transparent #F9F9F9 transparent transparent;
+}
+
+.titulo{ 
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.content-data{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #919191;
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+.text-info{
+    font-size: 14px; 
+}
+
+.detalhes{
+    color:#B2B2B2;
+    padding-top: 40px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    
 }
