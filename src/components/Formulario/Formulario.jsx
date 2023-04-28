@@ -54,16 +54,20 @@ const Formulario = () =>{
                     isActive={isActive.login}
                     handleTextChange={handleTextChange}
                     handleOnBlur={handleOnBlur}
+                    hasButton={false}
+                    
                 />
 
-                <Input 
+                <Input
                     label="Senha" 
                     type="password"
                     name="senha"
                     value={value.senha}
                     isActive={isActive.senha}
                     handleTextChange={handleTextChange}
-                    handleOnBlur={handleOnBlur}
+                    handleOnBlur={handleOnBlur} 
+                    hasButton={true} 
+                    isPassword={true}
                  />
 
                 <Botao background="#0178F6">
@@ -71,7 +75,7 @@ const Formulario = () =>{
                 </Botao>
 
                 <Botao background="#fff">
-                   <FcGoogle size={15}/>
+                   <FcGoogle size={15} />
                 </Botao>
 
                 <Botao background="#000">

@@ -1,7 +1,8 @@
 .campo-input{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     position: relative;
+    
 }
 
 .input{ 
@@ -42,5 +43,19 @@ input:focus{
 
 .campo-input .Active {
     transform: translate(0, 12px) scale(0.75);
+}
+
+.input-button-eye{
+    position: absolute;
+    background-color: transparent;
+    top: 17px;
+    left: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    width: 30px;
+    height: 40px;   
 }
 

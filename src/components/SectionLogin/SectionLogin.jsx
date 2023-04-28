@@ -4,7 +4,7 @@ import './SectionLogin.css';
 const SectionLogin = () =>{
     return(
         <section className="section-login"> 
-        <Formulario/>
+            <Formulario/>
         </section>
     )
 }
