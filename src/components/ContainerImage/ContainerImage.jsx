@@ -22,7 +22,9 @@ const ContainerImage = () => {
                     indisponíveis enquanto trabalhamos na
                     solução de um problema</p>
 
-                    <p className='detalhes'>mais detalhes</p>
+                    <a href='https://status.riotgames.com/?locale=pt_BR' target="_blank">
+                        <p className='detalhes'> mais detalhes</p>
+                    </a>
                 </div>
             </div>
            

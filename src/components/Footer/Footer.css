@@ -6,7 +6,9 @@
 
     color: #B4B4B4;
     font-family: 'Lexend Deca', sans-serif;
-    font-size: 11px;
+    font-size: 10px;
+    line-height: 15px;
+    font-weight: 400;
     text-transform: uppercase;  
 }
 
@@ -19,4 +21,12 @@
 
 .versao{
     padding-left: 70%;
+}
+
+.criar-conta{
+    color: #B4B4B4;
+}
+
+.criar-conta:hover{
+    color: #b2b2b2af;
 }
