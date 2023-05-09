@@ -1,6 +1,18 @@
 .section-login{
-    width: 20vw;
-    height: 100vh;
-    background-color: #F9F9F9;
-    
+    width: 500px;
+    background-color: #F9F9F9;   
 }
+
+@media (max-width: 740px) {
+     .section-login{
+       min-width: 350px;
+    } 
+    
+}  
+
+@media (max-width: 460px) {
+    .section-login{
+       min-width: 100%;
+    } 
+}  
+

@@ -1,21 +1,23 @@
 
-section{ 
+section{    
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: stretch;
+    align-items: stretch; 
+    width: 100%     
 }
 
-.wallpaper{
-    width: 80vw;
+.wallpaper{  
     height: 100vh;
-    
+    background-image: url('/src/assets/images/yasuo.jpg');
+    background-position: center;
+    background-size: cover;        
 }
 
 .vector{
     position: absolute;
     top: 40px;
-    left: 22%;
+    left: 28%;
     width:46px;
     height: 46px;
 }
@@ -32,14 +34,14 @@ section{
     justify-content: space-around;
     position: absolute;
     top: 5px;
-    left: 24.5%;
+    left: 30.5%;
     background-color: #F9F9F9;
     padding: 37px;  
     width: 380px;
     height: 250px;
     border-radius: 3px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    visibility: hidden;      
+    visibility: hidden;       
 } 
 
 .tooltip:hover .tooltiptext{
@@ -93,3 +95,31 @@ a {
 .detalhes:hover{
     color: #b2b2b2ca;
 }
+
+@media (max-width: 1440px){
+   .vector{
+    left: 28%;
+   } 
+}
+
+@media (max-width: 1330px) {
+    .vector{
+        left: 32%;
+    } 
+}
+@media (max-width: 1140px) {
+    .vector{
+        left: 38%;
+    }
+}
+
+@media (max-width: 840px) {
+    .vector{
+        display: none;
+    }
+}
+@media (max-width: 553px) {
+    .tooltip .tooltiptext{
+       display: none;
+    }
+} 

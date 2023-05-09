@@ -26,9 +26,9 @@ const ContainerImage = () => {
                         <p className='detalhes'> mais detalhes</p>
                     </a>
                 </div>
-            </div>
+            </div> 
            
-            <img className='wallpaper' src={wallpaper} alt='wallpaper prinicipal do yasuo de league of legends'/>
+            <div className='wallpaper'></div>
         </section>
     )
 }

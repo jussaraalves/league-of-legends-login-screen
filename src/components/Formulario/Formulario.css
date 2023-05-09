@@ -1,14 +1,7 @@
 .formulario{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.logo{
-    text-align: center;
-    width: 113px;
-    height: 64px;
-    
+    display: flex; 
+    align-items: center; 
+          
 }
 
 .title-login{
