@@ -8,7 +8,10 @@
     margin-right: 12px;
 }
 
-.botao:hover{
-    /* background-color: rgba(211, 211, 211, 0.415); */
-    background-color: red;
+.icons_botao{
+    padding: 5px;
+    border-radius: 4px;
+}
+.botao .icons_botao:nth-child(1):hover{
+    background-color: rgba(211, 211, 211, 0.415); 
 }

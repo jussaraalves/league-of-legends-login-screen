@@ -2,7 +2,9 @@ import './Botao.css'
 const Botao = ({children, background}) =>{
     return(
         <button className="botao" style={{background}}>
-            {children}
+            <div className='icons_botao'>
+                {children}
+            </div>
         </button>
     )
 }
